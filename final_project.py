@@ -29,7 +29,7 @@ st.write("""
 # Cognitively Advanced Animals Prediction
 """)
 
-file = st.file_uploader("Choose an animal photo from your computer (Example: elephants, crows, bears, and rats)", type=["jpg", "png"])
+file = st.file_uploader("Choose animal photo from your computer to be predicted (Example: elephants, crows, rats, and bears)", type=["jpg", "png"])
 
 def import_and_predict(image_data, model):
     try:
