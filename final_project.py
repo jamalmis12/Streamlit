@@ -26,7 +26,7 @@ def load_model():
 model = load_model()
 
 st.write("""
-# Cognitively Advanced Animals Detection
+# Cognitively Advanced Animals Prediction
 """)
 
 file = st.file_uploader("Choose an animal photo from your computer (Example: elephants, crows, bears, and rats)", type=["jpg", "png"])
