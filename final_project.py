@@ -26,10 +26,10 @@ def load_model():
 model = load_model()
 
 st.write("""
-# Animals Detection System
+# Cognitively Advanced Animals Detection
 """)
 
-file = st.file_uploader("Choose an animal photo from your computer", type=["jpg", "png"])
+file = st.file_uploader("Choose an animal photo from your computer (Example: elephants, crows, bears, and rats)", type=["jpg", "png"])
 
 def import_and_predict(image_data, model):
     try:
