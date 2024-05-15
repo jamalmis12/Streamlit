@@ -53,7 +53,7 @@ else:
             prediction = import_and_predict(image, model)
             if prediction is not None:
                 class_names = ['bears', 'crows', 'elephants', 'rats']
-                string = "OUTPUT : " + class_names[np.argmax(prediction)]
+                string = "Predicted Cognitive Animal : " + class_names[np.argmax(prediction)]
                 st.success(string)
             else:
                 st.error("Prediction failed. Please check the input and try again.")
